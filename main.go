@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	c := container.BuildContainer()
+	c := container.InitializeContainer()
 	zoo := c.Zoo
 	zoo.AddThing(models.NewTable())
 	zoo.AddThing(models.NewComputer())
