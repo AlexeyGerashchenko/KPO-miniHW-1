@@ -43,7 +43,7 @@ func NewHerbo(name string, food int, kindness int) Herbo {
 	return herbo
 }
 
-func (herbo Herbo) IsKind() bool {
+func (herbo Herbo) IsContactZooEligible() bool {
 	return herbo.Kindness > 5
 }
 
